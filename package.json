@@ -24,6 +24,8 @@
     "@types/aws-lambda": "^8.10.115",
     "aws-cdk-lib": "2.82.0",
     "aws-lambda": "^1.0.7",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
     "constructs": "^10.0.0",
     "discord-webhook-node": "^1.1.8",
     "source-map-support": "^0.5.21",

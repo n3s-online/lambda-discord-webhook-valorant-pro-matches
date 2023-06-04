@@ -14,13 +14,13 @@ const environment: EnvironmentVariables = {
   DISCORD_WEBHOOK_USERNAME: process.env.DISCORD_WEBHOOK_AVATAR_URL ?? process.env.DISCORD_WEBHOOK_USERNAME
 };
 
-// Cron Rule is in UTC
+// Cron Rule is in UTC (currently 8AM PST)
 const cronRule: CronOptions = {
-  hour: '18',
-  minute: '20'
+  hour: '15',
+  minute: '00'
 };
 
-new TypescriptLambdaStack(app, 'TypescriptLambdaStack', {
+new TypescriptLambdaStack(app, 'VlrTypescriptLambdaStack', {
   environment,
   cronRule
 });
