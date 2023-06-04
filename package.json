@@ -7,8 +7,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "test-local": "node bin/runLocal.js"
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",
